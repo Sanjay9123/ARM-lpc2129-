@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v24ce9s8\sanjay\arm\sensor\ultrasonic\lcd.uvproj
+Project File Date:  10/15/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+v4bit_lcd.h(108): warning:  #1-D: last line of file ends without a newline
+v4bit_lcd.h:                                                      
+v4bit_lcd.h:                                                      ^
+v4bit_lcd.h: main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4476 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"v.axf" - 0 Error(s), 1 Warning(s).

@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v24ce9s8\sanjay\arm\sensor\eeprom\eeprom.uvproj
+Project File Date:  11/04/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+4bit_lcd.h(107): warning:  #1-D: last line of file ends without a newline
+4bit_lcd.h:                                                       
+4bit_lcd.h:                                                       ^
+main.c(10): warning:  #177-D: variable "ch0" was declared but never referenced
+main.c:   U8 ch0[100]="sanjay";
+main.c:      ^
+main.c: main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4236 RO-data=116 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"eeprom.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+4bit_lcd.h(108): warning:  #1-D: last line of file ends without a newline
+4bit_lcd.h:                                                       
+4bit_lcd.h:                                                       ^
+main.c(10): warning:  #177-D: variable "ch0" was declared but never referenced
+main.c:   U8 ch0[100]="sanjay";
+main.c:      ^
+main.c: main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4236 RO-data=116 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"eeprom.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+4bit_lcd.h(108): warning:  #1-D: last line of file ends without a newline
+4bit_lcd.h:                                                       
+4bit_lcd.h:                                                       ^
+main.c(10): warning:  #177-D: variable "ch0" was declared but never referenced
+main.c:   U8 ch0[100]="sanjay";
+main.c:      ^
+main.c(11): warning:  #177-D: variable "test" was declared but never referenced
+main.c:   U8 test[100]={0};
+main.c:      ^
+main.c: main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=4264 RO-data=116 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"eeprom.axf" - 0 Error(s), 3 Warning(s).
